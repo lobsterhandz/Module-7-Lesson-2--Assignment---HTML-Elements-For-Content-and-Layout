@@ -69,6 +69,14 @@
         a {
             color: #3366cc;
         }
+        /* Zoom-in effect for the Plumbus Owner's Manual image */
+        .zoomable {
+            cursor: zoom-in;
+            transition: transform 0.2s ease;
+        }
+        .zoomable:hover {
+            transform: scale(1.5);
+        }
     </style>
 </head>
 <body>
@@ -120,7 +128,6 @@
             </section>
 
             <!-- Additional Content Section - Providing Information -->
-            <!-- Additional Content -->
             <section>
                 <h2>About the Plumbus</h2>
                 <p>The Plumbus is an advanced multi-functional household device that has transcended its humble origins to become an indispensable tool for modern living. A marvel of engineering, the Plumbus is crafted using a proprietary blend of organic and synthetic materials, and its manufacturing process involves several distinct steps, each critical to ensuring the final product’s efficiency and reliability. The Plumbus combines simplicity with state-of-the-art technology, making it a staple in households across multiple dimensions.</p>
@@ -145,7 +152,7 @@
             <section>
                 <h2>Plumbus Owner's Manual</h2>
                 <figure>
-                    <img src="https://static.wikia.nocookie.net/rickandmorty/images/7/7d/Plumbus_Owners_Manual.jpg" alt="Plumbus Owner's Manual" style="width: 50%; height: auto;">
+                    <img src="https://static.wikia.nocookie.net/rickandmorty/images/7/7d/Plumbus_Owners_Manual.jpg" alt="Plumbus Owner's Manual" class="zoomable" style="width: 50%; height: auto;">
                     <figcaption>Figure 2: Owner's Manual - Learn everything about your Plumbus.</figcaption>
                 </figure>
                 <p>Every Plumbus comes with an owner's manual that details its functions, maintenance, and safety precautions.</p>
